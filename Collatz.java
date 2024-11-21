@@ -16,7 +16,7 @@ public class Collatz{
 			while(j >= 1){
 				if ((j==1 && (collatz.length() >1))){
 					if (mood.equals("v")){
-						System.out.println(collatz + "(" + String.valueOf(count) + ")");
+						System.out.println(collatz + " (" + String.valueOf(count) + ")");
 						c = true;
 						break;
 					}else{
