@@ -12,10 +12,10 @@ public class TimeCalc {
                 if (calMin<10){
                     String minOrg = "0"+String.valueOf(calMin);
                     System.out.println(hoursOrg+":"+minOrg);
-                }else{System.out.println(finalHour+":"+calMin);
+                }else{System.out.println(hoursOrg+":"+calMin);
             }
         }else {
-                if( 10 <= finalHour && finalHour < 24){
+                if( (10 < finalHour) && (finalHour < 24)){
                     if (calMin<10){
                         String minOrg = "0"+String.valueOf(calMin);
                         System.out.println(finalHour+":"+minOrg);

@@ -2,9 +2,8 @@
 
 public class Collatz{
 	public static void main(String args[]) {
-		String org = args[0];
-		int lenArg = (org.length());
-		String seed1 = (org).substring(0,(lenArg -1));
+		String seed1 = args[0];
+		int lenArg = (seed1.length());
 		int seedN = Integer.parseInt(seed1);
 		String mood = args[1];
 		int i = 0;

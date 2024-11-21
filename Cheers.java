@@ -1,12 +1,11 @@
 public class Cheers {
         public static void main(String[] args) {
-                 String cheerWord = String.valueOf(args[0]);
-                 int slength = cheerWord.length();
-                 String theCheerWord = (cheerWord.substring(0,(slength-1)));
+                 String theCheerWord = String.valueOf(args[0]);
+                 int slength = theCheerWord.length();
                  String capWord = theCheerWord.toUpperCase();
                  String numRepeatCheer = String.valueOf(args[1]);
                  int i = 0;
-                 while ( (slength -1) > i ) {
+                 while ( (slength) > i ) {
                          char letter =  capWord.charAt(i);    
                          String letter1 = String.valueOf(letter);
                          String anLetters = "AEFHILMNORSX";
